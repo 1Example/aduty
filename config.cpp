@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class OVG_Admin
+	class OVG_Aduty
 	{
 		units[]={};
 		weapons[]={};
@@ -14,14 +14,14 @@ class CfgPatches
 };
 class CfgMods
 {
-	class OVG_Admin
+	class OVG_Aduty
 	{
-		dir="OVG_Admin";
+		dir="OVG_Aduty";
 		picture="";
 		action="";
 		hideName=1;
 		hidePicture=1;
-		name="OVG_Admins";
+		name="OVG_Aduty";
 		credits="OVG Team";
 		author="1Example";
 		authorID="";
@@ -41,7 +41,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"OVG_Admin/Scripts/3_Game"
+					"OVG_Aduty/Scripts/3_Game"
 				};
 			};
 			class worldScriptModule
@@ -49,7 +49,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"OVG_Admin/Scripts/4_World"
+					"OVG_Aduty/Scripts/4_World"
 				};
 			};
 			class missionScriptModule
@@ -57,7 +57,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"OVG_Admin/Scripts/5_Mission"
+					"OVG_Aduty/Scripts/5_Mission"
 				};
 			};
 		};
